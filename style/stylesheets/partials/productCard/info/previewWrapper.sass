@@ -1,0 +1,121 @@
+//=================================
+//	productCard/info.sass
+//	Карточка товара
+//=================================
+//	Содержание:
+//-----
+//	I Typography
+//	II Grid
+//	III Main								
+//_________________________________
+
+//=================================
+//	I Typography
+//---------------------------------
+section[data-type="productCard"] .preview-wrapper .info
+	text-align: left
+	p
+		font: 14px/23px 'HelveticaNeueLTW1G-Lt'
+
+	h5
+		font: 16px/23px 'HelveticaNeueLTW1G-Lt'
+		text-align: justify
+
+section[data-type="productCard"] .preview-wrapper .preview-slider .product-info
+	font: 16px/16px 'HelveticaNeueLTW1G-Lt'
+	color: $active-color
+	&.active
+		color: #fff
+		text-transform: uppercase
+
+//=================================
+//	II Grid
+//---------------------------------
+section[data-type="productCard"] .preview-wrapper
+	.logo-wrap
+		float: right
+		position: relative
+		margin: 0 0 -120px -280px
+		
+	.preview, .info
+		@extend .flex-column
+		height: 480px
+	.preview
+		@extend .flex-center-h
+		> .list
+			@extend .flex-center
+			height: inherit
+			width: 80%
+			img
+				align-self: flex-end
+				margin: 0 auto
+				width: 100%
+	
+	.info
+		margin-top: 120px
+		height: 360px
+		overflow: auto
+		p
+			margin: 0
+		h5
+			margin: 40px 0 0 0
+			padding: 0 40px 0 0
+			
+	.special-good
+		width: 100%
+		> img
+			margin-top: 75px
+			
+section[data-type="productCard"] .preview-wrapper .preview-slider
+	@extend .flex
+	margin-top: 30px
+	.product-info
+		@extend .flex-center
+		width: 120px
+		flex-shrink: 0
+		margin-right: 15px
+	.list > div
+		@extend .flex-center
+		margin-left: 15px
+		height: 120px
+		width: 120px
+		overflow: hidden
+		&:last-child
+			margin-right: 15px
+		img
+			margin: auto
+			width: auto
+
+body#vert section[data-type="productCard"] .wrapper .preview-wrapper
+	.logo-wrap
+		margin-top: -25px
+		margin-right: -50px
+	.preview
+		margin-top: 30px
+		> .list
+			width: 100%
+	.info
+		margin-top: 150px
+		
+	.preview-slider
+		.product-info
+			width: 90px
+			font-size: 15px
+		.list
+			> div
+				height: 90px
+				width: 90px
+
+//=================================
+//	III Main
+//---------------------------------
+section[data-type="productCard"] .preview-wrapper .preview-slider
+	.product-info
+		border: 1px solid $active-color
+		&.active
+			background: $active-color
+	.list > div
+		border: 1px solid #a2a2a2
+		&.active
+			border: 1px solid $bg-color-header
+			background: none

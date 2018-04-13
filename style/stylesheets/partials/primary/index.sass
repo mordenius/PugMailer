@@ -1,0 +1,133 @@
+//=================================
+//	primary.sass
+//=================================
+//	Содержание:
+//-----
+//	I Typography
+//	II Grid
+//	III Main
+//	=	1. Category wrapper
+//	=	2. Sale wrapper
+//	=	3. Brand wrapper
+//_________________________________
+
+//=================================
+//	I Typography
+//---------------------------------
+section[data-type="home"]
+	h1
+		font-size: 20px
+
+	.category-wrapper
+		color: $text-color
+		p
+			font: 30px/30px 'HelveticaNeueLTW1G-Lt'
+			text-transform: uppercase
+			text-align: left
+		.rel
+			p
+				font: 40px/30px 'HelveticaNeueLTW1G-Roman'
+
+//=================================
+//	II Grid
+//---------------------------------
+section[data-type="home"]
+	h1
+		@extend .p-i-v-d
+
+section[data-type="home"] .category-wrapper
+	margin: 0 15px 0 0
+	.list > div
+		@extend .inline-center
+		@extend .m-i
+		width: 480px
+		height: 90px
+		padding: 30px 45px
+		&:nth-child(1)
+			margin-top: 0
+
+section[data-type="home"] .sale-wrapper
+	@extend .flex-column
+	width: 270px
+	padding: 0 7px
+	> div.list img
+		width: 100%
+
+section[data-type="home"] .brand-wrapper
+	@extend .p-i-h-d
+	.list
+		display: flex
+		flex-wrap: wrap
+		> div[data-filter-item]
+			width: 50%
+			height: 121px
+			> img
+				width: 100%
+
+body#vert section[data-type="home"]
+	.flex-mirror
+		flex-wrap: wrap
+		.category-wrapper
+			@extend .m-i-h
+		.category-wrapper,
+		.brand-wrapper
+			width: 539px
+			height: 630px
+			padding: 30px 0
+			h1
+				display: none
+
+		.brand-wrapper div.list-slider-wrapper
+			margin: 0 30px
+
+		.rel
+			z-index: 2
+
+		.sale-wrapper
+			order: 3
+			padding: 0px
+			width: 100%
+			height: 100%
+			div.list
+				display: flex
+				flex-wrap: wrap
+				> img
+					max-width: 50%
+					max-height: 360px
+
+//=================================
+//	III Main
+//---------------------------------
+//	=	1. Category wrapper
+//---------------------------------
+section[data-type="home"] .category-wrapper .list
+	> div
+		@extend .button-shadow
+		background-color: $button-color
+	div[data-category="female"]
+		border-left: 5px solid $female-category-color
+	div[data-category="male"]
+		border-left: 5px solid $male-category-color
+	div[data-category="kids"]
+		border-left: 5px solid $kids-category-color
+	div[data-category="accessory"]
+		border-left: 5px solid $accessory-category-color
+	div[data-category="care"]
+		border-left: 5px solid $care-category-color
+
+//---------------------------------
+//	=	2. Sale wrapper
+//---------------------------------
+section[data-type="home"] .sale-wrapper
+	background-color: $button-color
+
+//---------------------------------
+//	=	3. Brand wrapper
+//---------------------------------
+section[data-type="home"] .brand-wrapper .list
+	border-left: 1px solid $button-color
+	border-right: 1px solid $button-color
+
+section[data-type="home"] .brand-wrapper .list > [data-filter-item]
+	border: 1px solid $button-color
+	opacity: 0

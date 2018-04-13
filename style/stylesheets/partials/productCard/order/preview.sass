@@ -1,0 +1,83 @@
+//=================================
+//	productCard/info.sass
+//	Карточка товара
+//=================================
+//	Содержание:
+//-----
+//	I Typography
+//	II Grid
+//	III Main
+//_________________________________
+
+//=================================
+//	I Typography
+//---------------------------------
+section[data-type="productCard"] .wrapper[data-type="order"]
+	.upper .preview-product
+		> div h1
+			font: 18px/18px 'HelveticaNeueLTW1G-Md'
+
+		div[data-info="price"] > div
+			.price h4
+				font: 34px/35px 'HelveticaNeueLTW1G-Md'
+				text-align: left
+
+		div[data-info="model"]
+			max-width: 195px
+			text-align: left
+
+		div[data-info="model"] p
+			text-transform: uppercase
+			font: 16px/18px 'HelveticaNeueLTW1G-Roman'
+
+		div[data-info="count"] p,
+		div[data-info="bonus"] p
+			font: 18px/18px 'HelveticaNeueLTW1G-Roman'
+
+		div[data-info="bonus"] p
+			color: $active-color
+
+		div[data-info="size"] p
+			color: $button-color
+			font: 18px/45px 'HelveticaNeueLTW1G-Md'
+
+//=================================
+//	II Grid
+//---------------------------------
+section[data-type="productCard"] [data-type="order"].wrapper
+	.upper .preview-product
+		@extend .flex-between
+		padding-right: 45px
+
+
+section[data-type="productCard"] [data-type="order"].wrapper .upper
+	[data-info]
+		@extend .flex-column, .flex-between
+		@extend .p-i-v-d
+		height: inherit
+		> p
+			margin: auto
+
+	[data-info="preview"]
+		padding: 0
+		width: 195px
+		height: 180px
+		img
+			align-self: center
+			width: 100%
+			margin: auto
+			
+	[data-info="model"]
+		max-width: 195px
+	[data-info="size"] p
+		width: 60px
+		height: 45px
+
+//=================================
+//	III Main
+//---------------------------------
+section[data-type="productCard"] [data-type="order"].wrapper .upper
+	@extend .button-shadow
+	background-color: $white-color
+	[data-info="size"] p
+		background-color: $active-color

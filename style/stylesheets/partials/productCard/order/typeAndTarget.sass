@@ -1,0 +1,90 @@
+//=================================
+//	productCard/info.sass
+//	Карточка товара
+//=================================
+//	Содержание:
+//-----
+//	I Typography
+//	II Grid
+//	III Main
+//_________________________________
+
+//=================================
+//	I Typography
+//---------------------------------
+section[data-type="productCard"] .wrapper[data-type="order"]
+	.lower .button-wrapper .button p
+		font: 30px/60px 'HelveticaNeueLTW1G-Lt'
+		text-transform: uppercase
+
+section[data-type="productCard"] .wrapper[data-type="order"] .lower
+	div[data-type="type"] h1
+		font: 20px/30px 'HelveticaNeueLTW1G-Roman'
+
+	div[data-type="target"]
+		h1
+			font: 20px/30px 'HelveticaNeueLTW1G-Roman'
+		.city-wrapper
+			p
+				font: 18px/18px 'HelveticaNeueLTW1G-Lt'
+		.store-wrapper
+			h4
+				font: 18px/18px 'HelveticaNeueLTW1G-Md'
+				text-transform: uppercase
+			p
+				font: 12px/15px 'HelveticaNeueLTW1G-Lt'
+		.city-wrapper,
+		.store-wrapper
+			.active
+				color: $button-color
+		.city-wrapper .active
+			text-transform: uppercase
+
+//=================================
+//	II Grid
+//---------------------------------
+section[data-type="productCard"] [data-type="order"].wrapper .lower div[data-type="type"]
+	@extend .p-i-h
+	width: 100%
+	.button-wrapper
+		@extend .flex-between
+		.button
+			@extend .simple-button
+			width: 48%
+			height: 120px
+
+section[data-type="productCard"] [data-type="order"].wrapper .lower div[data-type="target"]
+	@extend .p-i-h
+	h1
+		@extend .m-i-v
+	.city-wrapper,
+	.store-wrapper
+		height: 60px
+		.list
+			width: 1020px
+			> div
+				width: 25%
+	.city-wrapper
+		width: 870px
+		margin: 0 auto
+		.list > div
+			width: 33%
+	.store-wrapper
+		height: 210px
+		h4
+			@extend .p-i-v
+		p
+			@extend .p-i-h
+	> .border-button-accept
+		margin: 30px auto 0
+		
+
+body#vert section[data-type="productCard"] [data-type="order"].wrapper .lower div[data-type="target"]
+	h1
+		@extend .m-i-v-d
+	.city-wrapper,
+	.store-wrapper
+		.list
+			width: 810px
+			> div
+				width: 33%
