@@ -6,21 +6,21 @@
 			"image": "",
 			"heder": "Early Morning",
 			"descripton": "Head off for a desert tour with locals sharing stories of the UAE's past.",
-			"headerAr" : "",
+			"headerAr" : "الصباح الباكر",
 			"descriptionAR" : ""
 		},
 		"colum_1_2": {
 			"image": "",
 			"heder": "Morning",
 			"descripton": "Discover traditional Arabian art, including calligraphy, wall decor, carpets and henna.",
-			"headerAr" : "",
+			"headerAr" : "الغداء",
 			"descriptionAR" : ""
 		},
 		"colum_1_3": {
 			"image": "",
 			"heder": "Late Afternoon",
 			"descripton": "Check out Burj Khalifa, the world’s tallest building, and try to fit it into a photograph.",
-			"headerAr" : "",
+			"headerAr" : "فترة بعد الظهر",
 			"descriptionAR" : ""
 		},
 		"colum_1_4": {
@@ -30,28 +30,28 @@
 			"headerAr" : "",
 			"descriptionAR" : ""
 		},
-		"Culture_Day_2_1": {
+		"colum__2_1": {
 			"image": "",
 			"heder": "Early Morning",
 			"descripton": "Enjoy breakfast at the Sheikh Mohammed Centre for Cultural Understanding (SMCCU), and learn about Emirati culture.",
 			"headerAr" : "",
 			"descriptionAR" : ""
 		},
-		"Culture_Day_2_2": {
+		"colum_2_2": {
 			"image": "",
 			"heder": "Morning",
 			"descripton": "Cross the Dubai Creek on an abra and talk to the merchants as the souks open up.",
 			"headerAr" : "",
 			"descriptionAR" : ""
 		},
-		"Culture_Day_2_3": {
+		"colum__2_3": {
 			"image": "",
 			"heder": "Afternoon",
 			"descripton": "Induge in lunch at the Al Fahidi Historical Neighbourhood, one of the oldest areas in Dubai.",
 			"headerAr" : "",
 			"descriptionAR" : ""
 		},
-		"Culture_Day_2_4": {
+		"colum_2_4": {
 			"image": "",
 			"heder": "Evening",
 			"descripton": "Catch the latest show at Dubai Opera, where there's everything from opera to stand-up comedy.",
@@ -60,56 +60,56 @@
 		}
 	},
 	"EXP_2":{
-			"Culture_Day_1_1": {
+		"colum_1_1": {
 			"image": "",
 			"heder": "",
 			"descripton": "",
 			"headerAr" : "",
 			"descriptionAR" : ""
 		},
-		"Culture_Day_1_2": {
+		"colum_1_2": {
 			"image": "",
 			"heder": "",
 			"descripton": "",
 			"headerAr" : "",
 			"descriptionAR" : ""
 		},
-		"Culture_Day_1_3": {
+		"colum_1_3": {
 			"image": "",
 			"heder": "",
 			"descripton": "",
 			"headerAr" : "",
 			"descriptionAR" : ""
 		},
-		"Culture_Day_1_4": {
+		"colum_1_4": {
 			"image": "",
 			"heder": "",
 			"descripton": "",
 			"headerAr" : "",
 			"descriptionAR" : ""
 		},
-		"Culture_Day_2_1": {
+		"colum_2_1": {
 			"image": "",
 			"heder": "",
 			"descripton": "",
 			"headerAr" : "",
 			"descriptionAR" : ""
 		},
-		"Culture_Day_2_2": {
+		"colum_2_2": {
 			"image": "",
 			"heder": "",
 			"descripton": "",
 			"headerAr" : "",
 			"descriptionAR" : ""
 		},
-		"Culture_Day_2_3": {
+		"colum_2_3": {
 			"image": "",
 			"heder": "",
 			"descripton": "",
 			"headerAr" : "",
 			"descriptionAR" : ""
 		},
-		"Culture_Day_2_4": {
+		"colum_2_4": {
 			"image": "",
 			"heder": "",
 			"descripton": "",
@@ -118,7 +118,7 @@
 		}
 	},
 	"EXP_3":{
-			"Culture_Day_1_1": {
+		"Culture_Day_1_1": {
 			"image": "",
 			"heder": "",
 			"descripton": "",

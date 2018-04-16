@@ -15,7 +15,6 @@ app.get('/', (req, res)=>{
     res.send(html)
 })
 
-
 app.get('/ar', (requesе, response)=>{
     response.render('ARIndex.pug')
 })
