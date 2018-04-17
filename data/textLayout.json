@@ -26,8 +26,14 @@
 		
 	},
 	"eightBlocks":{
-		"firstLine":[],
-		"secondLine":[]
+        "en":{
+		"firstLine":["DAY ","ONE"],
+		"secondLine":["DAY ", "TWO"]
+        },
+        "ar" :{
+        "firstLine":["اليوم","الأول"],
+        "secondLine":["الثاني","الثاني"]  
+        }
 	},
 	"bigBaner":"https://lh3.googleusercontent.com/8JY3RP31J4WdcihTHIvtDowM6IfrVUJsqzNmfVzr0-76ZI11sJaHLWJjwuPKK-JLZH4Ny3c4TXZvAmdRKXw3vREy26XNEkYdsjEIOiqXsSyK0ts4wsbWQWkRCETBPBwd74yvPCZcjZm8m5cop5kfG7pYqrEu5AiRVEdHIS1nfw2ZPBYykWryRD8MVZngV-SriVE3RVtaz3zDMdN75le6Tp2R9azjXw5HHG_TFhcOGnNrOxvwTLAPLDKTgKinMYecgO-D5QtAaZtqrTgRw_l-N43URbxlUywo61eWX8bFp4RJwt2Au28ql0sPGjgx5TVj0Fo5ronwqFULLxDowCYq_vmikPvb_SMYDb0KUtxVXTqJL5JxPiT-fA064tSBFtERdHX5ZVeQUmhrapyPh_HUneppNpXn-XMY8jR_pSUR9UlXSG_pndY2jqBrPd-5ZRCNRpQ5LA9mjY_wO6YAZkpX2zVjSdOuWRUdkzIJ7xC8mzBdRhb5f6PPi2YAM8cVaVFvGP194F_oQuPmdrorHdbH2XBvYE5bazqgZBl53Tt7BqpaHNqqaJKg3frCYgC5dwbE=w892-h678",
 		"futter":{
