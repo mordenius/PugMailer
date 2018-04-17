@@ -1,6 +1,35 @@
 {
-
-
+"else":{
+	"heder":{
+		"background":"https://lh3.googleusercontent.com/ZRsXDMU_WJlSUrrVqXnrFP9O5MyC1kJsIIxN-QV3OSfB77Uuyv2WuqkyjuJQApgcT71qfAylGoWeoYutn-r3udJErg7FbqF91I6UOCS2jpIzRHiMKBT8DnDpwzv6Rnfm8SX67JOjnDmCpM2iDNsZRy7vaSKa19U8exPJAeTI4iD101MzF_040ps9dt3yExrXqjxfaRBmoFoWcIiLDy8ONY-QtpMPY9ovc_SmTqxG8e0Z0vCn0R_hFCE6yY991H6nDr8WzoVE25JyQwT_gfAkIg_Hvua-leZD6f948Yjd9Bq7KN4YL1FMx5dwQKQyB6ea6B2Cy-_jeJ1ONTVAbmMIH0iUvH65bKSAq4-jJZ1y0NMXe7QNaLy0R9ito05exE3-SqR0ysaJexCJU1JOKjQLCo4fRyBVPzmcIQ1GxMY7rVr6Zifk6SkxMT5g94WFe3eYuaJx-NP1-QTFXQlHBUp0DQl5_ZDrPfgb7pQVdOTZLz36MztYO47S3YCxHz5K1yX-cLPX7orui-kFkrg9FS_WdGqmVQBp2vlmLuWzU6M7OCzEh8roYaTg7SU4M-o-j6Xn=w892-h678",
+		"logo":"https://lh3.googleusercontent.com/REDVLb02VZiCJSdpujGbpQdSiLl7mrgjzlvAlfgFRNJ8QYjPlOiBJ5DRCGXXS_z2IS4lXepK9Eu8AOoulqnq8obd5jCgFS2IxhObGmslC2vo6gwVvr8tGtrZK0dFYbpk-xYAFELZbFdlu_zV89DgHfeNHoSWKdRbnRwI33zCFDF8xUQCn31ozrFQVh8RKsg3fpyU-uJst856mt4F-jdYJtHfmIEnGsDZW5HwKgTUFTGSbwoKq1ZYHlX_UmfVrppUnixUJlXJaQGxEigOHgiQNbkoDUJGBy2xrBAd-RDJZpeP70ulRHsaWlLMdyv7f_ZRSw4hW0Nzz5su9BndHlw6eL5AArTUJE6SsmQ9gC52C50b27hU4ZrQLv1n2GNRqyZXhKmK-dx1EODsEPwA7BztCM8UmL4PoJvK547BdaxOkRbBtJhyXnQNo8WFXIYOj_vsF50r_2kYVopkP9TWi-16yPCJwJ8vim5XgUT2v56PveWsQFEz5Vis_RYssiniWS9-U3BKa3yOUS4IdtbgPCAUyyk4msRMBMrTtDpg0qL9pnKBb9GOoGi_u2xN3vmHuPdi=w892-h678",
+		"tagline" :{
+			"en":["TWO-DAY","STOPOVER"],
+			"ar" : []
+		}
+	},
+	"whiteBlock":{
+	
+	"en":[
+		"Dear Traveller",
+		"Thank you for visiting the MyDubai Experience. We hope you enjoyed your virtual visit of the city.",
+		"You are now enrolled in a raffle draw to win your holiday in Dubai.",
+		"Here’s an exciting two-day stopover itinerary to experience Dubai on your next trip.",
+		"Discover all that’s possible."
+	],
+	"ar":[]
+		
+	},
+	"eightBlocks":{
+		"firstLine":[],
+		"secondLine":[]
+	},
+	"bigBaner":"https://lh3.googleusercontent.com/8JY3RP31J4WdcihTHIvtDowM6IfrVUJsqzNmfVzr0-76ZI11sJaHLWJjwuPKK-JLZH4Ny3c4TXZvAmdRKXw3vREy26XNEkYdsjEIOiqXsSyK0ts4wsbWQWkRCETBPBwd74yvPCZcjZm8m5cop5kfG7pYqrEu5AiRVEdHIS1nfw2ZPBYykWryRD8MVZngV-SriVE3RVtaz3zDMdN75le6Tp2R9azjXw5HHG_TFhcOGnNrOxvwTLAPLDKTgKinMYecgO-D5QtAaZtqrTgRw_l-N43URbxlUywo61eWX8bFp4RJwt2Au28ql0sPGjgx5TVj0Fo5ronwqFULLxDowCYq_vmikPvb_SMYDb0KUtxVXTqJL5JxPiT-fA064tSBFtERdHX5ZVeQUmhrapyPh_HUneppNpXn-XMY8jR_pSUR9UlXSG_pndY2jqBrPd-5ZRCNRpQ5LA9mjY_wO6YAZkpX2zVjSdOuWRUdkzIJ7xC8mzBdRhb5f6PPi2YAM8cVaVFvGP194F_oQuPmdrorHdbH2XBvYE5bazqgZBl53Tt7BqpaHNqqaJKg3frCYgC5dwbE=w892-h678",
+		"futter":{
+			"en":"visitdubai.com",
+			"ar":""
+		}
+	},
     "EXP_1": {
         "colum_1_1": {
             "image": "https://lh3.googleusercontent.com/8AnBut6XroJX5LAYOLQqJQnSpwAkKd75nuBYujSqAGuliLrELuOlmQyeK-FxsJ8YUFu9gzae49_qkrHc4yUNUuNTkSWwGXBXL1rMoz8oPOEAG3rXSffw9LaBrOhpxKhmdNEAsT5Uz7RPoEQP0f_PSeNPSwqyt8z7wMUxPwtGXLWOQjoiW-Kyhs1AmJpfpx5Z6Yb-y5qi36p1bvW5MgZOgApFPQimYIEgkNBqHtTAdqRUBsrjWpKO1RUTWDhXddNvv8uv0gtOcW3mMbkcA0cXVusYhopgLNdhCyIDn_eRUtmrBGURDFgbBcl9Ay6pBdoLTonIcIdmtDGmX8qTlc1RgPKurQlevj3Xy0-eFQsWxhTXLon-uMcSjDlTItK39LIZ0xqCWRc42YWoFd8tZab_8PZc6ohBRQmBkJsWwV8LTBruagkjYXZzUlAvtdSNlhA--6RAyxnqDzL8S_3Qw2CWAQ5fvnsRuq6FYl_miHf4v384kJFmPW6MWAUud-6swUOX6uy7gIkCMJayT7OEdQk6qB5aR0o6yMATXk0PA2pFCQ5yFl66MVmyjLWfMikGVvPi=w1418-h694",

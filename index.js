@@ -11,7 +11,7 @@ app.use(express.static(__dirname));
 
 app.get('/', (req, res)=>{
     // response.render('index')
-    const html = pug.renderFile(path.resolve("./views/index.pug"), { val: dataJson['EXP_1'] })
+    const html = pug.renderFile(path.resolve("./views/index.pug"), { val: dataJson['EXP_1'],Data: dataJson['else'] })
     res.send(html)
 })
 
