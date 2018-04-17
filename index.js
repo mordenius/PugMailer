@@ -11,12 +11,12 @@ app.use(express.static(__dirname));
 
 app.get('/', (req, res)=>{
     // response.render('index')
-    const html = pug.renderFile(path.resolve("./views/index.pug"), { val: dataJson['EXP_1'], Data: dataJson['else'] })
+    const html = pug.renderFile(path.resolve("./views/index.pug"), { val: dataJson['EXP_2'], Data: dataJson['additionalInfo'] })
     res.send(html)
 })
 
 app.get('/ar', (req, res)=>{
-	const html = pug.renderFile(path.resolve("./views/ARIndex.pug"), { val: dataJson['EXP_3'], Data: dataJson['else'] })
+	const html = pug.renderFile(path.resolve("./views/ARIndex.pug"), { val: dataJson['EXP_2'], Data: dataJson['additionalInfo'] })
     res.send(html)
 })
 
