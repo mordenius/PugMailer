@@ -1,13 +1,13 @@
 doctype html
 html(lang="en")
-	head
-	body(style={
-	padding: '0px',  
-	border: "0", 
-	width: "600px", 
-	margin:"0 auto"
-	})  
-	table(style = {
+    head
+    body(style={
+    padding: '0px',  
+    border: "0", 
+    width: "600px", 
+    margin:"0 auto"
+    })  
+    table(style = {
     margin: "0px",
     padding: '0px',
     width: "600px",
@@ -17,8 +17,8 @@ html(lang="en")
     "vertical-align": "top",
     background: "url("+Data['heder']['background']+")"
     })
-		include includes/header.pug
-	table(style = {
+        include includes/header.pug
+    table(style = {
     margin: "0px",
     padding: '0px',
     width: "600px",
@@ -29,8 +29,8 @@ html(lang="en")
     "vertical-align": "top",
     "margin-left":"30px"
     })
-		include includes/whiteTextBlock.pug	
-	table(style = {
+        include includes/whiteTextBlock.pug 
+    table(style = {
     margin: "0px",
     padding: '0px',
     width: "600px",
@@ -42,9 +42,9 @@ html(lang="en")
     "margin-top":"20px",
     "margin-left":"30px"
     })
-		include includes/eightBlocks.pug
-		//-- event baners
-	table(style = {
+        include includes/eightBlocks.pug
+        //-- event baners
+    table(style = {
     margin: "0px",
     padding: '0px',
     width: "540px",
@@ -55,25 +55,30 @@ html(lang="en")
     "background-size":"540px",
     "margin-left":"30px"
     })
-	//--futer
-	table(style = {
-	margin: "0px",
-	padding: '0px',
-	width: "600px",
-	height:"30px",
-	"font-size" :"16px",
-	"border-collapse": "collapse",
-	color:"#ffff",
-	"border-spacing" : "0px",
-	"vertical-align": "center",
-	"text-align":"center",
-	background:"#008ed5",
-	"margin-top":"15px"
-	})
-		tr 
-			td #{Data['futter']['en']}
+    //--futer
+    table(style = {
+    margin: "0px",
+    padding: '0px',
+    width: "600px",
+    height:"30px",
+    "font-size" :"16px",
+    "border-collapse": "collapse",
+    color:"#ffff",
+    "border-spacing" : "0px",
+    "vertical-align": "center",
+    "text-align":"center",
+    background:"#008ed5",
+    "margin-top":"15px"
+    })
+        tr 
+            td(style = {
+            "color" :"white"
+            }) 
+                a(style = {
+                "color" :"white"
+                }) #{Data['futter']['en']}
 
-		block appContent
+        block appContent
 
 
 
