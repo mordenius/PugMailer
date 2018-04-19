@@ -10,7 +10,7 @@ app.use(express.static(__dirname));
 // app.set('view engine', 'pug');
 
 app.get('/', (req, res)=>{
-    const html = pug.renderFile(path.resolve("./views/index.pug"), { val: dataJson['EXP_1'], Data: dataJson['additionalInfo'] })
+    const html = pug.renderFile(path.resolve("./views/index.pug"), { val: dataJson['EXP_7'], Data: dataJson['additionalInfo'] })
     res.send(html)
 })
 
