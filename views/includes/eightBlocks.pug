@@ -10,47 +10,20 @@ tbody(style = {
 				"font-weight":"bold" 
 			}) #{Data['eightBlocks']['en']['firstLine'][1]}
 	tr
-		td(style = {
-		width:"129px",
-		}) 
-			img(
-			src = val['colum_1_1']['image'], 
-			style={ 
-			height: "120px",
-			"padding-top": "6px",
-			width:"123px",
+		each val, index  in newData
+			td(style = {
+			width:"129px",
 			})
-		td(style = {
-		width:"129px"
-		}) 
-			img(
-			src = val['colum_1_2']['image'], 
-			style={  
-			height: "120px",
-			"padding-top": "6px",
-			width:"123px", 
-			})
-		td(style = {
-		width:"129px"
-		}) 
-			img(
-			src = val['colum_1_3']['image'], 
-			style={ 
-			height: "120px", 
-			"padding-top": "6px",
-			width:"123px",
-			})
-		td(style = {
-		width:"129px",
-		"padding-right":"30px"
-		}) 
-			img(
-			src = val['colum_1_4']['image'], 
-			style={  
-			height: "120px",
-			"padding-top": "6px",
-			width:"123px",
-			})
+				img(
+				src = (val), 
+				style={ 
+				height: "120px", 
+				"padding-top": "6px",
+				width:"123px",
+				})
+			if (index == 'colum_1_4')
+				-break
+
 //--headers text block
 
 tbody(style = {
