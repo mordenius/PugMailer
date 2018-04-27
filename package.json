@@ -1,0 +1,26 @@
+{
+  "name": "render-mail-template",
+  "version": "0.0.1-alpha",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "juice": "^4.2.3",
+    "node-sass": "^4.9.0",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mordenius/render-mail-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mordenius/render-mail-template/issues"
+  },
+  "homepage": "https://github.com/mordenius/render-mail-template#readme",
+  "description": "Render html with inline style from pug + sass"
+}
