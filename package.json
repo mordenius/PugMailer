@@ -3,17 +3,32 @@
   "version": "0.0.1-alpha",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "node build/main.min.js",
+    "prod": "webpack --config ./webpack.prod.config.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "express": "^4.16.3",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "fs": "0.0.1-security",
     "juice": "^4.2.3",
     "node-sass": "^4.9.0",
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "webpack-uglify-js-plugin": "^1.1.9"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "json-loader": "^0.5.7",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^2.1.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mordenius/render-mail-template.git"
