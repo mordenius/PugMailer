@@ -1,0 +1,266 @@
+{
+   "couples": {
+      "days": [
+         {
+            "blocks": [
+               {
+                  "cover": "NCO_1_1.jpg",
+                  "title": "daytime.early_morning"
+               },
+               {
+                  "cover": "NCO_1_2.jpg",
+                  "title": "daytime.morning"
+               },
+               {
+                  "cover": "NCO_1_3.jpg",
+                  "title": "daytime.late_afternoon"
+               },
+               {
+                  "cover": "NCO_1_4.jpg",
+                  "title": "daytime.evening"
+               }
+            ]
+         },
+         {
+            "blocks": [
+               {
+                  "cover": "NCO_2_1.jpg",
+                  "title": "daytime.early_morning"
+               },
+               {
+                  "cover": "NCO_2_2.jpg",
+                  "title": "daytime.morning"
+               },
+               {
+                  "cover": "NCO_2_3.jpg",
+                  "title": "daytime.afternoon"
+               },
+               {
+                  "cover": "NCO_2_4.jpg",
+                  "title": "daytime.evening"
+               }
+            ]
+         }
+      ]
+   },
+   "Family": {
+      "days": [
+         {
+            "blocks": [
+               {
+                  "cover": "NFA_1_1.jpg",
+                  "title": "daytime.early_morning"
+               },
+               {
+                  "cover": "NFA_1_2.jpg",
+                  "title": "daytime.lunchtime"
+               },
+               {
+                  "cover": "NFA_1_3.jpg",
+                  "title": "daytime.afternoon"
+               },
+               {
+                  "cover": "NFA_1_4.jpg",
+                  "title": "daytime.evening"
+               }
+            ]
+         },
+         {
+            "blocks": [
+               {
+                  "cover": "NFA_2_1.jpg",
+                  "title": "daytime.morning"
+               },
+               {
+                  "cover": "NFA_2_2.jpgg",
+                  "title": "daytime.lunchtime"
+               },
+               {
+                  "cover": "NFA_2_3.jpg",
+                  "title": "daytime.afternoon"
+               },
+               {
+                  "cover": "NFA_2_4.jpg",
+                  "title": "daytime.evening"
+               }
+            ]
+         }
+      ]
+   },
+   "Adventure": {
+      "days": [
+         {
+            "blocks": [
+               {
+                  "cover": "NAD_1_1.jpg",
+                  "title": "daytime.early_morning"
+               },
+               {
+                  "cover": "NAD_1_2.jpg",
+                  "title": "daytime.morning"
+               },
+               {
+                  "cover": "NAD_1_3.jpg",
+                  "title": "daytime.afternoon"
+               },
+               {
+                  "cover": "NAD_1_4.jpg",
+                  "title": "daytime.evening"
+               }
+            ]
+         },
+         {
+            "blocks": [
+               {
+                  "cover": "NAD_2_1.jpg",
+                  "title": "daytime.early_morning"
+               },
+               {
+                  "cover": "NAD_2_2.jpg",
+                  "title": "daytime.morning"
+               },
+               {
+                  "cover": "NAD_2_3.jpg",
+                  "title": "daytime.late_afternoon"
+               },
+               {
+                  "cover": "NAD_2_4.jpg",
+                  "title": "daytime.evening"
+               }
+            ]
+         }
+      ]
+   },
+   "Culture": {
+      "days": [
+         {
+            "blocks": [
+               {
+                  "cover": "NCU_1_1.jpg",
+                  "title": "daytime.early_morning"
+               },
+               {
+                  "cover": "NCU_1_2.jpg",
+                  "title": "daytime.morning"
+               },
+               {
+                  "cover": "NCU_1_3.jpg",
+                  "title": "daytime.late_afternoon"
+               },
+               {
+                  "cover": "NCU_1_4.jpg",
+                  "title": "daytime.evening"
+               }
+            ]
+         },
+         {
+            "blocks": [
+               {
+                  "cover": "NCU_2_1.jpg",
+                  "title": "daytime.early_morning"
+               },
+               {
+                  "cover": "NCU_2_2.jpg",
+                  "title": "daytime.morning"
+               },
+               {
+                  "cover": "NCU_2_3.jpg",
+                  "title": "daytime.afternoon"
+               },
+               {
+                  "cover": "NCU_2_4.jpg",
+                  "title": "daytime.evening"
+               }
+            ]
+         }
+      ]
+   },
+   "indulge_relax": {
+      "days": [
+         {
+            "blocks": [
+               {
+                  "cover": "NIN_1_1.jpg",
+                  "title": "daytime.early_morning"
+               },
+               {
+                  "cover": "NIN_1_2.jpg",
+                  "title": "daytime.morning"
+               },
+               {
+                  "cover": "NIN_1_3.jpg",
+                  "title": "daytime.late_afternoon"
+               },
+               {
+                  "cover": "NIN_1_4.jpg",
+                  "title": "daytime.evening"
+               }
+            ]
+         },
+         {
+            "blocks": [
+               {
+                  "cover": "NIN_2_1.jpg",
+                  "title": "daytime.early_morning"
+               },
+               {
+                  "cover": "NIN_2_2.jpg",
+                  "title": "daytime.morning"
+               },
+               {
+                  "cover": "NIN_2_3.jpg",
+                  "title": "daytime.late_afternoon"
+               },
+               {
+                  "cover": "NIN_2_4.jpg",
+                  "title": "daytime.evening"
+               }
+            ]
+         }
+      ]
+   },
+   "beaches_day": {
+      "days": [
+         {
+            "blocks": [
+               {
+                  "cover": "NBE_1_1.jpg",
+                  "title": "daytime.early_morning"
+               },
+               {
+                  "cover": "NBE_1_2.jpg",
+                  "title": "daytime.lunchtime"
+               },
+               {
+                  "cover": "NBE_1_3.jpg",
+                  "title": "daytime.afternoon"
+               },
+               {
+                  "cover": "NBE_1_4.jpg",
+                  "title": "daytime.evening"
+               }
+            ]
+         },
+         {
+            "blocks": [
+               {
+                  "cover": "NBE_2_1.jpg",
+                  "title": "daytime.early_morning"
+               },
+               {
+                  "cover": "NBE_2_2.jpg",
+                  "title": "daytime.morning"
+               },
+               {
+                  "cover": "NBE_2_3.jpg",
+                  "title": "daytime.lunchtime"
+               },
+               {
+                  "cover": "NBE_2_4.jpg",
+                  "title": "daytime.evening"
+               }
+            ]
+         }
+      ]
+   }
+}

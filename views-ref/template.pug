@@ -1,0 +1,9 @@
+body
+	style= style
+	each day in data.days
+		div.day
+			each block in day.blocks
+				div.block
+					img(src=block.cover)
+					h1= block.title
+					p= block.desc

@@ -1,0 +1,94 @@
+{
+	"daytime": {
+		"early_morning": "Early Morning",
+		"morning": "Morning",
+		"late_afternoon": "Late Afternoon",
+		"evening": "Evening",
+		"afternoon": "Afternoon",
+		"lunchtime": "Lunchtime"
+	},
+	"couples": {
+		"day0": {
+			"block0": "Wake up with a warm cup of traditional Arabic coffee (Gahwa) as the sun rises.",
+			"block1": "Cross the Dubai Creek on a traditional abra before enjoying lunch in Dubai’s historical district.",
+			"block2": "Discover glittering gold and precious stones at the Gold Souk, one of the world's largest gold markets.",
+			"block3": "Dine 442m above ground in At.mosphere, the highest restaurant in the world."
+		},
+		"day1": {
+			"block0": "Take a hot air balloon ride over the desert, and watch the sun rise over the dunes.",
+			"block1": "Enjoy relaxation at its finest with a signature experience at one of Dubai's best spas.",
+			"block2": "Take a break for lunch and enjoy international cuisine with a soothing sea view.",
+			"block3": "Enjoy the latest show at Dubai Opera, where they have everything from opera to stand-up comedy."
+		}
+	},
+	"family": {
+		"day0": {
+			"block0": "Take off on a once-in-a-lifetime adventure with the family and explore Dubai’s desert.",
+			"block1": "Experience a traditional Bedouin lunch with locals and learn about Emirati heritage.",
+			"block2": "Enjoy fun desert activities for the whole family, from sandboarding to quad biking.",
+			"block3": "Watch the sun set behind the dunes while you set up camp for the night."
+		},
+		"day1": {
+			"block0": "Splash about and escape the heat at one of Dubai’s best waterparks.",
+			"block1": "Enjoy precious family moments while dining at one of the city’s award-winning restaurants.",
+			"block2": "Stop by the Dubai Aquarium & Underwater Zoo for memorable marine moments.",
+			"block3": "Make sure to catch the dancing Dubai Fountains - a spectacular sight you won't forget."
+		}
+	},
+	"adventure": {
+		"day0": {
+			"block0": "Fasten your seatbelts and burn rubber at the Dubai Autodrome, with a supercar driving experience.",
+			"block1": "Enjoy a breathtaking adventure with a thrilling ride through the desert dunes.",
+			"block2": "Find the perfect picnic spot while hiking and exploring Hatta’s mountains.",
+			"block3": "Escape the busy city and camp out under the stars, sharing stories with friends."
+		},
+		"day1": {
+			"block0": "Enjoy some early morning surfing or paddleboarding in the waters off Kite Beach.",
+			"block1": "Embark on an underwater adventure, and go diving with one of the local scuba schools.",
+			"block2": "Jump out of a plane at one of the world’s best skydiving drop zones above the Palm Jumeirah.",
+			"block3": "Head to one of the city’s top food trucks for a well-deserved meal at sunset."
+		}
+	},
+	"culture": {
+		"day0": {
+			"block0": "Head off for a desert tour with locals sharing stories of the UAE's past.",
+			"block1": "Discover traditional Arabian art, including calligraphy, wall decor, carpets and henna.",
+			"block2": "Check out Burj Khalifa, the world’s tallest building, and try to fit it into a photograph.",
+			"block3": "Visit Etihad Museum, which chronicles the history of the UAE since its birth in 1971."
+		},
+		"day1": {
+			"block0": "Enjoy breakfast at the Sheikh Mohammed Centre for Cultural Understanding (SMCCU), and learn about Emirati culture.",
+			"block1": "Cross the Dubai Creek on an abra and talk to the merchants as the souks open up.",
+			"block2": "Induge in lunch at the Al Fahidi Historical Neighbourhood, one of the oldest areas in Dubai.",
+			"block3": "Catch the latest show at Dubai Opera, where there's everything from opera to stand-up comedy."
+		}
+	},
+	"indulge_relax": {
+		"day0": {
+			"block0": "Have breakfast while taking in the panoramic view of the Creek from your private terrace.",
+			"block1": "Enjoy relaxation at its finest with a signature experience at one of Dubai's best spas.",
+			"block2": "Visit Etihad Museum, which chronicles the history of the UAE since its birth in 1971.",
+			"block3": "Dine out at 360, and watch the sun sinking in to the waters of the Arabian Gulf."
+		},
+		"day1": {
+			"block0": "Start the day with some fresh juice at the poolside while the sun rises over the city.",
+			"block1": "Shop 'til you drop and find some bargains at one of Dubai’s many malls.",
+			"block2": "Enjoy a yoga session by the sea and relax while admiring the city’s skyline.",
+			"block3": "Take in the Dubai Fountains, the world’s largest and most spectacular choreographed fountains, from a cafe's terrace."
+		}
+	},
+	"indulge_relax": {
+		"day0": {
+			"block0": "Head to Kite Beach for a sunrise run",
+			"block1": "Bite into a delicious beachside lunch ",
+			"block2": "Get that adrenaline rush with an afternoon of watersports ",
+			"block3": "Watch the sunset by the Burj Al Arab and look back at a long day on the beach."
+		},
+		"day1": {
+			"block0": "Savour a delectable breakfast and coffee before a busy day",
+			"block1": "Take in the sights and sounds of Dubai from a yacht ride",
+			"block2": "Dive, sail or jet-ski - take your pick from Dubai's many marine thrills",
+			"block3": "Say goodbye with a sunset stroll by the sea"
+		}
+	}
+}
