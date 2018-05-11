@@ -1,9 +1,11 @@
 body
 	style= style
-	each day in data.days
-		div.day
-			each block in day.blocks
-				div.block
-					img(src=block.cover)
-					h1= block.title
-					p= block.desc
+	table
+		include includes/header.pug
+	//each day in data.days
+	//	div.day
+	//		each block in day.blocks
+	//			div.block
+	//				img(src=block.cover)
+	//				h1= block.title
+	//				p= block.desc
