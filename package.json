@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "start",
+    "demon": "nodemon index.js",
     "dev": "webpack-dev-server --config ./webpack.dev.config.js --hot --watch --inline"
   },
   "author": "ConstantineGite",

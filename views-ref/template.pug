@@ -1,11 +1,21 @@
+head
+	link(href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet")
 body
 	style= style
+
 	table
-		include includes/header.pug
-	//each day in data.days
-	//	div.day
-	//		each block in day.blocks
-	//			div.block
-	//				img(src=block.cover)
-	//				h1= block.title
-	//				p= block.desc
+		tr
+			td.header
+				include includes/header.pug
+		tr
+			td.description
+				include includes/whiteTextBlock.pug
+		tr
+			td.grid
+				include includes/eightBlocks.pug
+
+		tr
+			td.footer
+				include includes/footer.pug
+		
+		
