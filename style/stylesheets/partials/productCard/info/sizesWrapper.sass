@@ -1,0 +1,151 @@
+//=================================
+//	productCard/sizesWrapper.sass
+//	Карточка товара
+//=================================
+//	Содержание:
+//-----
+//	I Typography
+//	II Grid
+//	III Main								
+//_________________________________
+
+//=================================
+//	I Typography
+//---------------------------------
+section[data-type="productCard"] .info-wrapper .size-wrapper
+	h2
+		font: 16px/44px 'HelveticaNeueLTW1G-Lt'
+	.size-place .active
+		color: $button-color
+
+section[data-type="productCard"] .size-wrapper .size-table
+	font: 18px/30px 'HelveticaNeueLTW1G-Roman'
+	color: $disable-color
+	&[data-place="store"] > .store
+		color: $active-color
+	&[data-place="chain"]
+		> .others, .stock
+			color: $active-color
+	.rel
+		color: $button-color !important
+
+section[data-type="productCard"] .size-wrapper .size-calculator
+	font: 14px/14px 'HelveticaNeueLTW1G-Lt'
+	.active
+		color: $button-color
+
+//=================================
+//	II Grid
+//---------------------------------
+section[data-type="productCard"] .wrapper .info-wrapper .size-wrapper
+	height: 255px
+	//---------------------------------
+	//	-		1.3.2 size-loader
+	//-----
+	.size-loader
+		@extend .flex-center
+		position: absolute
+		height:  225px
+		width: 360px
+		margin-top: -45px
+		margin-bottom: -270px
+
+	.size-place
+		@extend .flex
+		margin-top: 15px
+		[data-place]
+			@extend .flex-center
+			height: $gs * .75
+			width: 50%
+//---------------------------------
+//	-		1.3.3 size-table
+//-----
+section[data-type="productCard"] .info-wrapper .size-table
+	@extend .p-i-v
+	@extend .flex
+	flex-wrap: wrap
+	min-height: 120px
+	> div
+		@extend .flex-center
+		width: 20%
+		height: 30px
+
+	&.accessory p 
+		padding-left: 100px
+
+//---------------------------------
+//	-		1.3.4 size-calculator
+//-----
+section[data-type="productCard"] .info-wrapper .size-calculator
+	@extend .hide
+	@extend .flex-center
+	.size-calc-title
+		@extend .flex-center
+		width: 50%
+
+	div[data-size-standart]
+		height: $gs * .75
+		width: 12.5%
+
+//=================================
+//	III Main
+//---------------------------------
+//	-		1.3.1 size-loader
+//-----
+section[data-type="productCard"] .info-wrapper .size-wrapper .size-loader
+	background-color: rgba(243, 243, 243, 0.79)
+
+//---------------------------------
+//	-		1.3.2 size-table
+//-----
+section[data-type="productCard"] .info-wrapper .size-wrapper
+	.size-place, .size-calculator 
+		@extend .button-shadow
+		background-color: $button-color
+		[data-place], [data-size-standart]
+			&.active
+				background-color: $active-color
+
+//---------------------------------
+//	-		1.3.2 size-table
+//-----
+section[data-type="productCard"] .info-wrapper .size-wrapper .size-table
+	&.accessory
+		display: flex					
+	> div
+		float: left
+		&[data-size="accessory"]
+			width: inherit
+			height: 100%
+			min-height: 90px
+			margin: auto
+			background-size: 50px
+			background-repeat: no-repeat
+			background-position: 20px 50%
+			
+	&.accessory[data-place]
+		.rel
+			background-color: #f3f3f3 !important
+			color: #c6c6c6 !important
+			
+		&[data-place="store"] .rel
+			background-image: url('../img/icons/IN.KT.Circle_Arrow.svg')
+		&[data-place="chain"] .rel
+			background-image: url('../img/icons/IN.KT.Circle_No.svg')
+		
+		&[data-place="store"] > .store.rel,
+		&[data-place="chain"] > .others.rel,
+		&[data-place="chain"] > .stock.rel
+			color: $active-color !important
+			background-image: url('../img/icons/IN.KT.Circle_Check.svg')
+
+	//---------------------------------
+	//	-		1.3.2.2 size-table other
+	//-----
+	&[data-place] .rel
+		background-color: $bg-color-header
+	&[data-place="store"] > .store.rel
+		background-color: $active-color
+	&[data-place="chain"]
+		> .others.rel, .stock.rel
+			background-color: $active-color

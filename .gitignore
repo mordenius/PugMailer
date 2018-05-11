@@ -1,0 +1,13 @@
+# Intellij IDEA
+/.idea/*
+
+# library
+/node_modules/*
+
+# Prod build
+/build/*
+
+# npm
+npm-debug.log
+/package-lock.json
+

@@ -1,0 +1,42 @@
+//=================================
+//	search.sass
+//	Страница поиска товаров
+//=================================
+//	Содержание:
+//-----
+//	I Typography
+//	II Grid
+//	III Main								
+//_________________________________
+
+//=================================
+//	I Typography
+//---------------------------------
+
+		
+//=================================
+//	II Grid
+//---------------------------------
+section[data-type="search"] .search-top
+	@extend .flex
+	@extend .p-i-v-t
+	.baner
+		@extend .p-i-h
+		width: 540px
+		height: 315px
+		> img
+			width: 510px
+			height: inherit
+
+body#vert section[data-type="search"]
+	.search-top
+		@extend .p-i-v-d
+		justify-content: center
+		.baner
+			margin: 0 0 0 30px
+			padding: 0
+			width: 255px
+			height: 285px
+			> img
+				width: inherit
+				height: inherit

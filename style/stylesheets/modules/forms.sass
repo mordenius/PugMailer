@@ -1,0 +1,117 @@
+//=================================
+//	buttons.sass
+//	Стилистика кнопок
+//=================================
+//	Содержание:
+//-----
+//	I Common
+//	II Border buttons
+//	III Simple buttons
+//	IV Close buttons
+//	V Inputs
+//	=	1. Search
+//_________________________________
+
+$gs: 60px
+	
+//=================================
+//	I Common
+//---------------------------------
+.button-shadow
+	+box-shadow(-3px, 3px, 10px, rgba(0,0,0,.1))
+
+//=================================
+//	II Border buttons
+//---------------------------------
+.border-button
+	@extend .flex-center
+	text-transform: uppercase
+	color: $active-color
+
+.border-button-large
+	@extend .border-button
+	font: 30px/30px 'HelveticaNeueLTW1G-Md'
+	border: 4px solid $active-color
+	width: $gs * 5
+	height: $gs * 1.5
+
+.border-button-medium
+	@extend .border-button
+	font: 20px/40px 'HelveticaNeueLTW1G-Md'
+	border: 3px solid $active-color
+	width: 195px
+	height: $gs * .75
+
+.border-button-small
+	@extend .border-button
+	font: 18px/18px 'HelveticaNeueLTW1G-Md'
+	border: 3px solid $active-color
+	width: 135px
+	height: $gs * .75
+
+.border-button-accept
+	@extend .border-button
+	font: 20px/20px 'HelveticaNeueLTW1G-Md'
+	border: 4px solid $active-color
+	width: 315px
+	height: $gs
+
+	&.disable
+		color: $disable-color
+		border: 4px solid $disable-color
+
+//=================================
+//	III Simple buttons
+//---------------------------------
+.simple-button
+	@extend .button-shadow
+	@extend .flex
+	width: $gs
+	height: $gs / 1.3
+	background-color: $button-color
+	> p 
+		margin: auto
+		font: 22px/22px 'HelveticaNeueLTW1G-Lt'
+
+section[data-type="catalog"] .catalog-header .catalog-grid-control
+	.simple-button
+		width: $gs * 1.75
+		height: $gs * .75
+		&.active
+			background-color: $active-color
+
+//=================================
+//	IV Close buttons
+//---------------------------------
+.close-medium
+	@extend .flex-center
+	background-color: $bg-color-header
+	width: 45px
+	height: 45px
+
+//=================================
+//	V Inputs
+//---------------------------------
+input,
+input[placeholder]
+	background-color: $button-color
+	color: $text-color
+	font: 16px/16px 'HelveticaNeueLTW1G-Roman'
+	@extend .p-i-h
+
+input.active
+	border: 2px solid $active-color !important
+
+input#seller
+	border: 2px solid #c6c6c6
+	padding: 0 0 0 30px
+	font-size: 18px
+
+//---------------------------------
+//	=	1. Search
+//---------------------------------
+header
+	input
+		background-image: url('../img/icons/search.png') 
+		background-repeat: no-repeat
+		background-position: 95% 50%
