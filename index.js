@@ -8,6 +8,14 @@ const sass = require('node-sass');
 
 const layout = require("./data/layout.json");
 
+const blockEN = require("./data/blocks/en.json");
+const blockAR = require("./data/blocks/ar.json");
+const blocks = {'en': blockEN, 'ar': blockAR}
+//console.log('blocks')
+
+const commonElem = require("./data/blocks/commonElements.json");
+
+
 const en = require("./data/locale/en.json");
 const ar = require("./data/locale/ar.json");
 
@@ -33,11 +41,18 @@ const localeParse = (type, lang) => {
 	return data;
 }
 
-const render = (data) => {
+const selectLeng = (leng) => {
+	//console.log(blocks[lang], '-----------------------------')
+	return blocks[leng]
+}	
+
+const render = (data, leng) => {
+	console.log(leng.whiteBlock[0], '----------------------------------')
+	const lengh = leng
 	const cssBuffer = sass.renderSync({ file: _STYLE });
 	const style = cssBuffer.css.toString();
 
-	const html = pug.renderFile(_TEMPLATE, { data, style });
+	const html = pug.renderFile(_TEMPLATE, { data, style, commonElem,  lengh});
 
 	return juice(html);
 }
@@ -46,7 +61,8 @@ app.use(express.static(__dirname));
 
 app.get('/:lang/:type', (req, res)=>{
 	const data = localeParse(req.params.type, req.params.lang);
-    const html = render(data);
+	let leng = selectLeng(req.params.lang)
+    const html = render(data, leng);
     res.send(html)
 });
 

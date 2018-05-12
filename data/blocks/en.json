@@ -1,0 +1,16 @@
+	{
+	"heder":{
+		"tagline" :["TWO-DAY","STOPOVER"]
+	},
+	"whiteBlock":[
+		"Dear Traveller",
+		"Thank you for visiting the <strong>MyDubai Experience</strong>. We hope you enjoyed your virtual visit of the city.",
+		"<strong>You are now enrolled in a raffle draw to win your holiday in Dubai.</strong>",
+		"Here’s an exciting two-day stopover itinerary to experience Dubai on your next trip.",
+		"<strong>Discover all that’s possible.</strong>"
+	],
+		"eightBlocks":[
+		"DAY <strong>ONE</strong>",
+		"DAY <strong>TWO</strong>"
+	]
+	}
