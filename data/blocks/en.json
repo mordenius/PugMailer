@@ -1,7 +1,8 @@
 	{
-	"heder":{
-		"tagline" :["TWO-DAY","STOPOVER"]
-	},
+	"heder":[
+		"TWO-DAY" ,
+		"STOPOVER"
+	],
 	"whiteBlock":[
 		"Dear Traveller",
 		"Thank you for visiting the <strong>MyDubai Experience</strong>. We hope you enjoyed your virtual visit of the city.",
