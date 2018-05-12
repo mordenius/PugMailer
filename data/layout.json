@@ -43,7 +43,7 @@
          }
       ]
    },
-   "Family": {
+   "family": {
       "days": [
          {
             "blocks": [
@@ -72,7 +72,7 @@
                   "title": "daytime.morning"
                },
                {
-                  "cover": "NFA_2_2.jpgg",
+                  "cover": "NFA_2_2.jpg",
                   "title": "daytime.lunchtime"
                },
                {
@@ -87,7 +87,7 @@
          }
       ]
    },
-   "Adventure": {
+   "adventure": {
       "days": [
          {
             "blocks": [
@@ -131,7 +131,7 @@
          }
       ]
    },
-   "Culture": {
+   "culture": {
       "days": [
          {
             "blocks": [

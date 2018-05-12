@@ -11,7 +11,7 @@ const layout = require("./data/layout.json");
 const blockEN = require("./data/blocks/en.json");
 const blockAR = require("./data/blocks/ar.json");
 const blocks = {'en': blockEN, 'ar': blockAR}
-//console.log('blocks')
+const tempImg = require("./data/tempIMG.json");
 
 const commonElem = require("./data/blocks/commonElements.json");
 
@@ -33,7 +33,7 @@ const localeParse = (type, lang) => {
 	_.each(data.days, (day, dayCnt) => {
 		_.each(day.blocks, (block, blockCnt) => {
 			block.title = _.get(locale[lang], block.title);
-			block.cover = `${_STORAGE}${type}/${block.cover}`;
+			block.cover = `${block.cover}`;
 			block.desc = _.get(locale[lang][type], `day${dayCnt}.block${blockCnt}`);
 		})
 	})
@@ -47,12 +47,11 @@ const selectLeng = (leng) => {
 }	
 
 const render = (data, leng) => {
-	console.log(leng.whiteBlock[0], '----------------------------------')
 	const lengh = leng
 	const cssBuffer = sass.renderSync({ file: _STYLE });
 	const style = cssBuffer.css.toString();
 
-	const html = pug.renderFile(_TEMPLATE, { data, style, commonElem,  lengh});
+	const html = pug.renderFile(_TEMPLATE, { data, style, commonElem,  lengh, tempImg});
 
 	return juice(html);
 }
