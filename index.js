@@ -46,12 +46,18 @@ const selectLeng = (leng) => {
 	return blocks[leng]
 }	
 
-const render = (data, leng) => {
+const switchingLayout = (leng) => {
+
+	return leng
+}	
+
+const render = (data, leng, length) => {
 	const lengh = leng
+	const lang = length
 	const cssBuffer = sass.renderSync({ file: _STYLE });
 	const style = cssBuffer.css.toString();
 
-	const html = pug.renderFile(_TEMPLATE, { data, style, commonElem,  lengh, tempImg});
+	const html = pug.renderFile(_TEMPLATE, { data, style, commonElem,  lengh, tempImg, lang});
 
 	return juice(html);
 }
@@ -61,7 +67,8 @@ app.use(express.static(__dirname));
 app.get('/:lang/:type', (req, res)=>{
 	const data = localeParse(req.params.type, req.params.lang);
 	let leng = selectLeng(req.params.lang)
-    const html = render(data, leng);
+	let swichLang = switchingLayout(req.params.lang)
+    const html = render(data, leng, swichLang);
     res.send(html)
 });
 
